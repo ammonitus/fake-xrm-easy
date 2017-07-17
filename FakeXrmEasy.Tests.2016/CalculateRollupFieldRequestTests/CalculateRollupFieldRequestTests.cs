@@ -32,6 +32,7 @@ namespace FakeXrmEasy.Tests.FakeContextTests.CalculateRollupFieldRequestTests
 
             var o = new Opportunity
             {
+                Id = Guid.NewGuid(),
                 CustomerId = a.ToEntityReference()
                 
             };
